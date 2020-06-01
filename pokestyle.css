@@ -1,0 +1,128 @@
+body {
+    background-color: #56ADFF;
+    font-size: 30px;
+}
+
+.box {
+    display: grid;
+    font-size: 20px;
+}
+
+span {
+    text-align: center;
+}
+
+.images {
+    width: 180px;
+    height: 180px;
+}
+
+#git {
+    max-width: 120px;
+    max-height: 100px;
+    position: absolute;
+    right: 10px;
+}
+
+#search {
+    font-size: 18px;
+}
+
+#pokeball {
+    width: 65px;
+    height: 53px;
+    animation: rotation 2s infinite linear;
+}
+
+/*POKEBALL EFECT ROT*/
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#nav {
+    background-image: url(./Images/pokenav.png);
+}
+
+#pokeVs {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.normal {
+    background-color: #BABAAE;
+}
+
+.fighting {
+    background-color: #A75543;
+}
+
+.flying {
+    background-color: #78A2FF;
+}
+
+.poison {
+    background-color: #A95CA0;
+}
+
+.ground {
+    background-color: #EECC55;
+}
+
+.rock {
+    background-color: #CCBD72;
+}
+
+.bug {
+    background-color: #C2D21E;
+}
+
+.ghost {
+    background-color: #7975D7;
+}
+
+.steel {
+    background-color: #C4C2DB;
+}
+
+.fire {
+    background-color: #FA5643;
+}
+
+.water {
+    background-color: #56ADFF;
+}
+
+.grass {
+    background-color: #8CD750;
+}
+
+.electric {
+    background-color: #FDE139;
+}
+
+.psychic {
+    background-color: #FA65B4;
+}
+
+.ice {
+    background-color: #96F1FF;
+}
+
+.dragon {
+    background-color: #8673FF;
+}
+
+.dark {
+    background-color: #8D6855;
+}
+
+.fairy {
+    background-color: #F9AEFF;
+}
