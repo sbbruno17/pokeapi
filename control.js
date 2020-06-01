@@ -5,7 +5,6 @@ var app = new Vue({
         search: "",
         pokemones: [],
     },
-
     //BUSCO Y ARMO JSON.
     methods: {
         getPokemon: function () {
