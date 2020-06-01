@@ -29,9 +29,9 @@
         </div>
 
         <div class="row">
-            <div v-for="pokemon in pokemones" class="col md-4">
-                <div id="pokeBox" class="box justify-content-center">
-                    <div class="names">
+            <div v-for="pokemon in pokemones" class="box col md-3 justify-content-center">
+                <div id="pokeBox" v-bind:class="pokemon.type">
+                    <div>
                         <span><b>{{pokemon.name}}</b></span>
                     </div>
                     <div class="caracts justify-content-center">
