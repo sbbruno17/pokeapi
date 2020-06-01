@@ -4,8 +4,6 @@ var app = new Vue({
         getIdUrl: null,
         search: "",
         pokemones: [],
-        isActive: true,
-        hasError: false,
     },
     //BUSCO Y ARMO JSON.
     methods: {
