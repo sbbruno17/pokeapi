@@ -1,5 +1,7 @@
 body {
-    background-color: #56ADFF;
+    background-image: url(./Images/field.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
 
